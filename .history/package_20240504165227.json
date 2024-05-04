@@ -1,0 +1,31 @@
+{
+  "name": "mern_chat_raj",
+  "version": "1.0.0",
+  "description": "this is a chat application using MERN",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon backend/server.js",
+    "server":"nodemon backend/server.js",
+    "build":"npm install && npm install --prefix frontend"
+  },
+  "author": "Rajratan More",
+  "license": "ISC",
+  "dependencies": {
+    "@chakra-ui/icons": "^2.1.1",
+    "axios": "^1.6.8",
+    "bcryptjs": "^2.4.3",
+    "chakra": "^0.0.3",
+    "colors": "^1.4.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.3.3",
+    "nodemon": "^3.1.0",
+    "react-lottie": "^1.2.4",
+    "react-scrollable-feed": "^2.0.1",
+    "socket.io": "^4.7.5",
+    "socket.io-client": "^4.7.5"
+  }
+}
